@@ -1,0 +1,313 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.ptxyz-freshjuice.com/#organization",
+      "name": "PT. XYZ",
+      "alternateName": "PT. XYZ FreshJuice",
+      "description": "Perusahaan pengumpulan dana yang usahanya menanamkan modal khususnya usaha yang dilaksanakan oleh mahasiswa/i. Jenis pendanaan yang diberikan untuk peningkatan reputasi bisnis secara digital yang berdampak pada transaksi bisnis.",
+      "url": "https://www.ptxyz-freshjuice.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.ptxyz-freshjuice.com/images/logo.png",
+        "width": 300,
+        "height": 100
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://www.ptxyz-freshjuice.com/images/og-image.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-813-7311-7657",
+          "contactType": "customer service",
+          "availableLanguage": ["Indonesian", "English"],
+          "areaServed": "ID",
+          "serviceArea": {
+            "@type": "GeoCircle",
+            "geoMidpoint": {
+              "@type": "GeoCoordinates",
+              "latitude": -6.2088,
+              "longitude": 106.8456
+            },
+            "geoRadius": "50000"
+          }
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+62-813-7311-7657",
+          "contactType": "sales",
+          "availableLanguage": "Indonesian"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Sehat No. 123",
+        "addressLocality": "Jakarta Selatan",
+        "addressRegion": "DKI Jakarta",
+        "postalCode": "12345",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -6.2088,
+        "longitude": 106.8456
+      },
+      "sameAs": [
+        "https://www.instagram.com/ptxyz_freshjuice",
+        "https://www.facebook.com/ptxyz.freshjuice",
+        "https://www.linkedin.com/company/ptxyz",
+        "https://twitter.com/ptxyz_official"
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Daffa Bayansyah",
+        "jobTitle": "Founder & CEO",
+        "telephone": "+62-813-7311-7657",
+        "email": "daffa@ptxyz.com"
+      },
+      "foundingDate": "2019",
+      "numberOfEmployees": {
+        "@type": "QuantitativeValue",
+        "minValue": 10,
+        "maxValue": 50
+      },
+      "industry": ["Food & Beverage", "Financial Services", "Digital Marketing"],
+      "knowsAbout": [
+        "Pengumpulan Dana",
+        "Investasi Mahasiswa", 
+        "Digital Marketing",
+        "SEO Optimization",
+        "Jus Premium",
+        "Makanan Sehat",
+        "Startup Investment"
+      ],
+      "areaServed": {
+        "@type": "Country",
+        "name": "Indonesia"
+      },
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": -6.2088,
+          "longitude": 106.8456
+        },
+        "geoRadius": "100000"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.ptxyz-freshjuice.com/#website",
+      "url": "https://www.ptxyz-freshjuice.com",
+      "name": "PT. XYZ - Premium Natural Juice Bar & Pengumpulan Dana",
+      "description": "Website resmi PT. XYZ - Perusahaan pengumpulan dana terpercaya dengan layanan jus premium alami untuk gaya hidup sehat",
+      "publisher": {
+        "@id": "https://www.ptxyz-freshjuice.com/#organization"
+      },
+      "inLanguage": "id-ID",
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.ptxyz-freshjuice.com/search?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.ptxyz-freshjuice.com/#localbusiness",
+      "name": "PT. XYZ FreshJuice",
+      "image": "https://www.ptxyz-freshjuice.com/images/store-front.jpg",
+      "telephone": "+62-813-7311-7657",
+      "email": "daffa@ptxyz.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Sehat No. 123",
+        "addressLocality": "Jakarta Selatan",
+        "addressRegion": "DKI Jakarta",
+        "postalCode": "12345",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -6.2088,
+        "longitude": 106.8456
+      },
+      "url": "https://www.ptxyz-freshjuice.com",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "23:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "09:00",
+          "closes": "22:00"
+        }
+      ],
+      "priceRange": "$$",
+      "servesCuisine": ["Healthy Food", "Juice Bar", "Organic"],
+      "acceptsReservations": true,
+      "currenciesAccepted": "IDR",
+      "paymentAccepted": ["Cash", "Credit Card", "Debit Card", "Mobile Payment"],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "150",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "https://www.ptxyz-freshjuice.com/#restaurant",
+      "name": "PT. XYZ FreshJuice",
+      "servesCuisine": ["Juice Bar", "Healthy Food", "Smoothies"],
+      "hasMenu": {
+        "@type": "Menu",
+        "name": "PT. XYZ FreshJuice Menu",
+        "description": "Menu lengkap jus segar dan smoothie premium",
+        "hasMenuSection": [
+          {
+            "@type": "MenuSection",
+            "name": "Jus Buah Segar",
+            "description": "Koleksi jus buah segar 100% alami",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Orange Blast",
+                "description": "Jeruk segar pilihan dengan vitamin C tinggi",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "25000",
+                  "priceCurrency": "IDR"
+                }
+              },
+              {
+                "@type": "MenuItem", 
+                "name": "Apple Fresh",
+                "description": "Apel merah segar yang kaya akan antioksidan",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "22000",
+                  "priceCurrency": "IDR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Jus Sayur Organik",
+            "description": "Jus sayuran hijau untuk detoksifikasi",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Green Power",
+                "description": "Kombinasi sayuran hijau segar untuk detoksifikasi",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "32000",
+                  "priceCurrency": "IDR"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "MenuSection",
+            "name": "Smoothies Premium",
+            "description": "Smoothie creamy dengan berbagai rasa",
+            "hasMenuItem": [
+              {
+                "@type": "MenuItem",
+                "name": "Mix Berry Smoothie",
+                "description": "Campuran berbagai berry segar dengan rasa manis asam",
+                "offers": {
+                  "@type": "Offer",
+                  "price": "35000",
+                  "priceCurrency": "IDR"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FinancialService",
+      "@id": "https://www.ptxyz-freshjuice.com/#financialservice",
+      "name": "PT. XYZ Investment Services",
+      "description": "Layanan pengumpulan dana dan investasi khusus untuk mahasiswa dan startup",
+      "serviceType": "Investment Management",
+      "areaServed": "Indonesia",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Investment Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Modal Mahasiswa",
+              "description": "Pendanaan khusus untuk usaha mahasiswa dengan potensi tinggi"
+            }
+          },
+          {
+            "@type": "Offer", 
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Digital Marketing Consultation",
+              "description": "Layanan konsultasi peningkatan reputasi bisnis digital"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.ptxyz-freshjuice.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.ptxyz-freshjuice.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Menu",
+          "item": "https://www.ptxyz-freshjuice.com/menu"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Gallery",
+          "item": "https://www.ptxyz-freshjuice.com/gallery"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Contact",
+          "item": "https://www.ptxyz-freshjuice.com/contact"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Halaman Tidak Ditemukan | PT. XYZ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #ff6b35, #f7931e);
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+        
+        .error-content {
+            max-width: 600px;
+        }
+        
+        .error-code {
+            font-size: 8rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            text-shadow: 0 4px 8px rgba(0,0,0,0.3);
+            animation: bounce 2s ease-in-out infinite;
+        }
+        
+        .error-title {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .error-message {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .error-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .juice-icon {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0) rotate(0deg); }
+            50% { transform: translateY(-10px) rotate(5deg); }
+        }
+        
+        @media (max-width: 768px) {
+            .error-code {
+                font-size: 5rem;
+            }
+            
+            .error-title {
+                font-size: 2rem;
+            }
+            
+            .error-actions {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div class="error-content">
+            <div class="juice-icon">🥤</div>
+            <div class="error-code">404</div>
+            <h1 class="error-title">Oops! Halaman Tidak Ditemukan</h1>
+            <p class="error-message">
+                Sepertinya halaman yang Anda cari sudah habis seperti jus segar kami! 
+                Jangan khawatir, mari kita bantu Anda menemukan yang Anda butuhkan.
+            </p>
+            <div class="error-actions">
+                <a href="index.html" class="btn btn-secondary">
+                    <i class="fas fa-home"></i>
+                    <span>Kembali ke Beranda</span>
+                </a>
+                <a href="menu.html" class="btn btn-secondary">
+                    <i class="fas fa-list"></i>
+                    <span>Lihat Menu</span>
+                </a>
+                <a href="contact.html" class="btn btn-secondary">
+                    <i class="fas fa-phone"></i>
+                    <span>Hubungi Kami</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add some interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            const juiceIcon = document.querySelector('.juice-icon');
+            const errorCode = document.querySelector('.error-code');
+            
+            // Random juice emojis
+            const juiceEmojis = ['🥤', '🍊', '🍎', '🍇', '🥕', '🥬', '🍓'];
+            
+            setInterval(() => {
+                const randomEmoji = juiceEmojis[Math.floor(Math.random() * juiceEmojis.length)];
+                juiceIcon.textContent = randomEmoji;
+            }, 3000);
+            
+            // Click effect on 404
+            errorCode.addEventListener('click', function() {
+                this.style.transform = 'scale(1.1)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>

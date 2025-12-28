@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri Foto - PT. XYZ | Produk & Suasana Toko | Investasi & Jus Premium</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Lihat galeri foto produk jus segar PT. XYZ, suasana toko modern, proses pembuatan, dan momen-momen spesial perusahaan pengumpulan dana terpercaya kami.">
+    <meta name="keywords" content="galeri PT XYZ, foto produk jus, interior toko jus, proses pembuatan jus, foto makanan, investasi mahasiswa, pengumpulan dana">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Galeri Foto - PT. XYZ">
+    <meta property="og:description" content="Koleksi foto produk dan suasana toko PT. XYZ yang menyegarkan">
+    <meta property="og:image" content="https://www.ptxyz-freshjuice.com/images/gallery-og.jpg">
+    <meta property="og:url" content="https://www.ptxyz-freshjuice.com/gallery.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ff6b35">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>PT. XYZ</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Beranda</a></li>
+                <li><a href="index.html#about" class="nav-link">Tentang</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link active">Galeri</a></li>
+                <li><a href="contact.html" class="nav-link">Kontak</a></li>
+                <li><a href="#" class="nav-link cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a></li>
+                <li><a href="#" class="nav-link order-btn">Pesan Sekarang</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>Galeri Kami</h1>
+                <p>Lihat koleksi foto produk dan suasana toko kami yang menyegarkan</p>
+                <div class="breadcrumb">
+                    <a href="index.html">Beranda</a>
+                    <span>/</span>
+                    <span>Galeri</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Filter -->
+    <section class="gallery-filter">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="products">Produk</button>
+                <button class="filter-btn" data-filter="store">Toko</button>
+                <button class="filter-btn" data-filter="process">Proses</button>
+                <button class="filter-btn" data-filter="events">Acara</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid">
+                <!-- Product Photos -->
+                <div class="gallery-item" data-category="products">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder orange-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-glass-whiskey"></i>
+                                    <span>Orange Blast</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Orange Blast</h3>
+                            <p>Jus jeruk segar premium</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="products">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder green-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-leaf"></i>
+                                    <span>Green Paradise</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Green Paradise</h3>
+                            <p>Jus sayuran hijau detox</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="products">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder red-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-heart"></i>
+                                    <span>Berry Mix</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Berry Mix</h3>
+                            <p>Smoothie berry antioksidan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Store Photos -->
+                <div class="gallery-item" data-category="store">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder blue-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-store"></i>
+                                    <span>Interior Toko</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Interior Modern</h3>
+                            <p>Suasana toko yang nyaman</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="store">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder teal-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-chair"></i>
+                                    <span>Area Duduk</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Area Santai</h3>
+                            <p>Tempat menikmati jus</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Process Photos -->
+                <div class="gallery-item" data-category="process">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder purple-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-blender"></i>
+                                    <span>Proses Pembuatan</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Proses Blending</h3>
+                            <p>Pembuatan jus segar</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="process">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder yellow-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-apple-alt"></i>
+                                    <span>Buah Segar</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Bahan Berkualitas</h3>
+                            <p>Buah pilihan terbaik</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Events Photos -->
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder pink-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-users"></i>
+                                    <span>Grand Opening</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Grand Opening</h3>
+                            <p>Pembukaan cabang baru</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder lime-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-gift"></i>
+                                    <span>Promo Spesial</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Promo Hari Sehat</h3>
+                            <p>Acara kesehatan bulanan</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="products">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder indigo-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-cocktail"></i>
+                                    <span>Signature Blend</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Signature Collection</h3>
+                            <p>Koleksi jus eksklusif</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="store">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder rose-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-cash-register"></i>
+                                    <span>Counter Area</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Area Pemesanan</h3>
+                            <p>Counter modern dan bersih</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="process">
+                    <div class="gallery-card">
+                        <div class="gallery-image">
+                            <div class="image-placeholder emerald-gradient">
+                                <div class="image-content">
+                                    <i class="fas fa-seedling"></i>
+                                    <span>Organic Farm</span>
+                                </div>
+                            </div>
+                            <div class="gallery-overlay">
+                                <button class="gallery-btn"><i class="fas fa-expand"></i></button>
+                                <button class="gallery-btn"><i class="fas fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="gallery-info">
+                            <h3>Kebun Organik</h3>
+                            <p>Sumber buah dan sayur</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="instagram-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Follow Us @freshjuice_id</h2>
+                <p>Lihat update terbaru dan foto-foto menarik dari pelanggan kami</p>
+            </div>
+            <div class="instagram-grid">
+                <div class="insta-item">
+                    <div class="insta-placeholder orange-gradient">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="insta-item">
+                    <div class="insta-placeholder green-gradient">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="insta-item">
+                    <div class="insta-placeholder red-gradient">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="insta-item">
+                    <div class="insta-placeholder blue-gradient">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="insta-item">
+                    <div class="insta-placeholder purple-gradient">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+                <div class="insta-item">
+                    <div class="insta-placeholder yellow-gradient">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="instagram-cta">
+                <a href="#" class="btn btn-primary">
+                    <i class="fab fa-instagram"></i>
+                    Follow Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>PT. XYZ</span>
+                    </div>
+                    <p>Perusahaan pengumpulan dana terpercaya yang menghadirkan modal khusus untuk mahasiswa/i dan menyajikan jus premium alami.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="menu.html">Jus Buah</a></li>
+                        <li><a href="menu.html">Jus Sayur</a></li>
+                        <li><a href="menu.html">Smoothies</a></li>
+                        <li><a href="menu.html">Detox Juice</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Informasi</h3>
+                    <ul>
+                        <li><a href="index.html#about">Tentang Kami</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Jl. Sehat No. 123, Jakarta</p>
+                        <p><i class="fas fa-phone"></i> +62 813-7311-7657</p>
+                        <p><i class="fas fa-envelope"></i> daffa@freshjuice.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PT. XYZ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

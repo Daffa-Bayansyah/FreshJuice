@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesan Jus - PT. XYZ | Pilih Ukuran & Customize | Investasi & Jus Premium</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Pesan jus segar PT. XYZ dengan berbagai pilihan ukuran dan customization. Delivery gratis untuk minimal 3 jus. Dari perusahaan pengumpulan dana terpercaya.">
+    <meta name="keywords" content="pesan jus online PT XYZ, order jus, delivery jus jakarta, jus segar, investasi mahasiswa">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ff6b35">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-leaf"></i>
+                <span>PT. XYZ</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="index.html" class="nav-link">Beranda</a></li>
+                <li><a href="index.html#about" class="nav-link">Tentang</a></li>
+                <li><a href="menu.html" class="nav-link">Menu</a></li>
+                <li><a href="gallery.html" class="nav-link">Galeri</a></li>
+                <li><a href="contact.html" class="nav-link">Kontak</a></li>
+                <li><a href="#" class="nav-link cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Order Header -->
+    <section class="order-header">
+        <div class="container">
+            <div class="order-breadcrumb">
+                <a href="menu.html">Menu</a>
+                <span>/</span>
+                <span>Pesan Jus</span>
+            </div>
+            <h1>Customize Pesanan Anda</h1>
+            <p>Pilih ukuran, tambahan, dan sesuaikan jus sesuai selera Anda</p>
+        </div>
+    </section>
+
+    <!-- Order Form -->
+    <section class="order-section">
+        <div class="container">
+            <div class="order-container">
+                <!-- Product Info -->
+                <div class="product-info" id="productInfo">
+                    <div class="product-image">
+                        <img id="productImg" src="https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=400&h=400&fit=crop&crop=center" alt="Orange Juice">
+                    </div>
+                    <div class="product-details">
+                        <h2 id="productName">Orange Blast</h2>
+                        <p id="productDesc">Jeruk segar pilihan dengan vitamin C tinggi, sempurna untuk meningkatkan imunitas tubuh</p>
+                        <div class="product-price">
+                            <span class="base-price">Mulai dari </span>
+                            <span id="basePrice">Rp 25.000</span>
+                        </div>
+                        <div class="product-benefits">
+                            <span class="benefit-tag"><i class="fas fa-leaf"></i> Organik</span>
+                            <span class="benefit-tag"><i class="fas fa-heart"></i> Vitamin C</span>
+                            <span class="benefit-tag"><i class="fas fa-clock"></i> Fresh</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Form -->
+                <div class="order-form-container">
+                    <form class="order-form" id="orderForm">
+                        <!-- Size Selection -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-glass-whiskey"></i> Pilih Ukuran</h3>
+                            <div class="size-options">
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="small" data-price="0">
+                                    <div class="size-card">
+                                        <div class="size-icon">
+                                            <i class="fas fa-glass-whiskey"></i>
+                                        </div>
+                                        <div class="size-info">
+                                            <h4>Small (250ml)</h4>
+                                            <p>Harga dasar</p>
+                                        </div>
+                                    </div>
+                                </label>
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="medium" data-price="5000" checked>
+                                    <div class="size-card">
+                                        <div class="size-icon">
+                                            <i class="fas fa-glass-whiskey"></i>
+                                        </div>
+                                        <div class="size-info">
+                                            <h4>Medium (400ml)</h4>
+                                            <p>+Rp 5.000</p>
+                                        </div>
+                                    </div>
+                                </label>
+                                <label class="size-option">
+                                    <input type="radio" name="size" value="large" data-price="10000">
+                                    <div class="size-card">
+                                        <div class="size-icon">
+                                            <i class="fas fa-glass-whiskey"></i>
+                                        </div>
+                                        <div class="size-info">
+                                            <h4>Large (600ml)</h4>
+                                            <p>+Rp 10.000</p>
+                                        </div>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Ice Level -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-snowflake"></i> Level Es</h3>
+                            <div class="ice-options">
+                                <label class="ice-option">
+                                    <input type="radio" name="ice" value="no-ice">
+                                    <span class="ice-label">Tanpa Es</span>
+                                </label>
+                                <label class="ice-option">
+                                    <input type="radio" name="ice" value="less-ice">
+                                    <span class="ice-label">Es Sedikit</span>
+                                </label>
+                                <label class="ice-option">
+                                    <input type="radio" name="ice" value="normal-ice" checked>
+                                    <span class="ice-label">Es Normal</span>
+                                </label>
+                                <label class="ice-option">
+                                    <input type="radio" name="ice" value="extra-ice">
+                                    <span class="ice-label">Es Banyak</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Sugar Level -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-cube"></i> Level Gula</h3>
+                            <div class="sugar-options">
+                                <label class="sugar-option">
+                                    <input type="radio" name="sugar" value="no-sugar">
+                                    <span class="sugar-label">Tanpa Gula</span>
+                                </label>
+                                <label class="sugar-option">
+                                    <input type="radio" name="sugar" value="less-sugar">
+                                    <span class="sugar-label">Gula Sedikit</span>
+                                </label>
+                                <label class="sugar-option">
+                                    <input type="radio" name="sugar" value="normal-sugar" checked>
+                                    <span class="sugar-label">Gula Normal</span>
+                                </label>
+                                <label class="sugar-option">
+                                    <input type="radio" name="sugar" value="extra-sugar">
+                                    <span class="sugar-label">Gula Banyak</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Add-ons -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-plus-circle"></i> Tambahan (Opsional)</h3>
+                            <div class="addon-options">
+                                <label class="addon-option">
+                                    <input type="checkbox" name="addons" value="chia-seeds" data-price="3000">
+                                    <div class="addon-card">
+                                        <span class="addon-name">Chia Seeds</span>
+                                        <span class="addon-price">+Rp 3.000</span>
+                                    </div>
+                                </label>
+                                <label class="addon-option">
+                                    <input type="checkbox" name="addons" value="honey" data-price="2000">
+                                    <div class="addon-card">
+                                        <span class="addon-name">Madu Asli</span>
+                                        <span class="addon-price">+Rp 2.000</span>
+                                    </div>
+                                </label>
+                                <label class="addon-option">
+                                    <input type="checkbox" name="addons" value="ginger" data-price="2500">
+                                    <div class="addon-card">
+                                        <span class="addon-name">Jahe Segar</span>
+                                        <span class="addon-price">+Rp 2.500</span>
+                                    </div>
+                                </label>
+                                <label class="addon-option">
+                                    <input type="checkbox" name="addons" value="lemon" data-price="2000">
+                                    <div class="addon-card">
+                                        <span class="addon-name">Perasan Lemon</span>
+                                        <span class="addon-price">+Rp 2.000</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Special Instructions -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-comment"></i> Catatan Khusus</h3>
+                            <textarea name="notes" placeholder="Tambahkan catatan khusus untuk pesanan Anda (opsional)..." rows="3"></textarea>
+                        </div>
+
+                        <!-- Quantity -->
+                        <div class="form-section">
+                            <h3><i class="fas fa-sort-numeric-up"></i> Jumlah</h3>
+                            <div class="quantity-selector">
+                                <button type="button" class="qty-btn minus" onclick="changeQuantity(-1)">
+                                    <i class="fas fa-minus"></i>
+                                </button>
+                                <input type="number" id="quantity" name="quantity" value="1" min="1" max="20" readonly>
+                                <button type="button" class="qty-btn plus" onclick="changeQuantity(1)">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Price Summary -->
+                        <div class="price-summary">
+                            <div class="price-row">
+                                <span>Harga Dasar:</span>
+                                <span id="basePriceDisplay">Rp 25.000</span>
+                            </div>
+                            <div class="price-row">
+                                <span>Ukuran:</span>
+                                <span id="sizePriceDisplay">+Rp 5.000</span>
+                            </div>
+                            <div class="price-row">
+                                <span>Tambahan:</span>
+                                <span id="addonPriceDisplay">Rp 0</span>
+                            </div>
+                            <div class="price-row">
+                                <span>Jumlah:</span>
+                                <span id="quantityDisplay">1x</span>
+                            </div>
+                            <div class="price-total">
+                                <span>Total:</span>
+                                <span id="totalPrice">Rp 30.000</span>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons -->
+                        <div class="order-actions">
+                            <button type="button" class="btn btn-secondary" onclick="addToCart()">
+                                <i class="fas fa-cart-plus"></i>
+                                <span>Tambah ke Keranjang</span>
+                            </button>
+                            <button type="button" class="btn btn-primary" onclick="orderNow()">
+                                <i class="fas fa-shopping-bag"></i>
+                                <span>Pesan Sekarang</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Delivery Info -->
+    <section class="delivery-info">
+        <div class="container">
+            <div class="info-cards">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Gratis Ongkir</h4>
+                        <p>Minimal pembelian 3 jus atau Rp 75.000</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>Pengiriman Cepat</h4>
+                        <p>30-60 menit dalam area Jakarta</p>
+                    </div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="info-content">
+                        <h4>100% Fresh</h4>
+                        <p>Dibuat saat pesanan diterima</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-leaf"></i>
+                        <span>PT. XYZ</span>
+                    </div>
+                    <p>Perusahaan pengumpulan dana terpercaya yang menghadirkan modal khusus untuk mahasiswa/i dan menyajikan jus premium alami.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Menu</h3>
+                    <ul>
+                        <li><a href="menu.html">Jus Buah</a></li>
+                        <li><a href="menu.html">Jus Sayur</a></li>
+                        <li><a href="menu.html">Smoothies</a></li>
+                        <li><a href="menu.html">Detox Juice</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Informasi</h3>
+                    <ul>
+                        <li><a href="index.html#about">Tentang Kami</a></li>
+                        <li><a href="contact.html">Kontak</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Jl. Sehat No. 123, Jakarta</p>
+                        <p><i class="fas fa-phone"></i> +62 813-7311-7657</p>
+                        <p><i class="fas fa-envelope"></i> daffa@freshjuice.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 PT. XYZ. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/order.js"></script>
+</body>
+</html>
