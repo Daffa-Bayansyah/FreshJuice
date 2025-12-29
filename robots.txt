@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.ptxyz-byanjus.com/sitemap.xml
+Sitemap: https://www.byanjus.com/sitemap.xml
 
 # Disallow admin areas (if any)
 Disallow: /admin/

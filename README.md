@@ -1,6 +1,6 @@
-# PT. XYZ - ByanjUs Premium Natural Juice Bar & Pengumpulan Dana Website
+# ByanjUs - Premium Natural Juice Bar Website
 
-Website modern dan responsif untuk PT. XYZ - perusahaan pengumpulan dana yang menghadirkan modal khusus untuk mahasiswa/i dengan ByanjUs bisnis jus premium yang memukau dan fitur-fitur canggih.
+Website modern dan responsif untuk ByanjUs - bisnis jus premium dengan desain UI/UX yang memukau dan fitur-fitur canggih.
 
 ## 🌟 Fitur Utama
 
@@ -105,7 +105,7 @@ Website modern dan responsif untuk PT. XYZ - perusahaan pengumpulan dana yang me
 ### 🔍 SEO Implementation
 
 #### On-Page SEO
-- **Title Tags**: Optimized untuk PT. XYZ ByanjUs keywords
+- **Title Tags**: Optimized untuk ByanjUs keywords
 - **Meta Descriptions**: Compelling descriptions dengan call-to-action
 - **Header Structure**: Proper H1-H6 hierarchy
 - **Internal Linking**: Strategic link building
@@ -165,12 +165,12 @@ Text Light: #666666
 1. **Clone atau Download**
    ```bash
    git clone [repository-url]
-   cd ptxyz-byanjus-website
+   cd byanjus-website
    ```
 
 2. **File Structure**
    ```
-   ptxyz-byanjus-website/
+   byanjus-website/
    ├── index.html          # Homepage
    ├── menu.html           # Menu page
    ├── gallery.html        # Gallery page
@@ -253,7 +253,7 @@ Edit CSS variables di `css/style.css`:
 - **Firebase Hosting**: Google's hosting platform
 
 #### Domain Setup
-- **Recommended**: www.ptxyz-byanjus.com
+- **Recommended**: www.byanjus.com
 - **SSL Certificate**: Required untuk HTTPS
 - **CDN Setup**: CloudFlare untuk performance
 
@@ -270,14 +270,14 @@ Edit CSS variables di `css/style.css`:
 Untuk pertanyaan atau support mengenai website ini:
 - **Business Contact**: Daffa Bayansyah
 - **Phone**: +62 813-7311-7657
-- **Email**: daffa@ptxyz.com
-- **Website**: www.ptxyz-byanjus.com
+- **Email**: daffa@byanjus.com
+- **Website**: www.byanjus.com
 - **Address**: Jl. Sehat No. 123, Jakarta Selatan
 
 ### 📄 License
 
-Website ini dibuat untuk keperluan komersial PT. XYZ. All rights reserved.
+Website ini dibuat untuk keperluan komersial ByanjUs. All rights reserved.
 
 ---
 
-**Dibuat dengan ❤️ untuk PT. XYZ - Empowering Student Entrepreneurs & ByanjUs Premium Natural Juice Excellence**
+**Dibuat dengan ❤️ untuk ByanjUs - Premium Natural Juice Excellence**
