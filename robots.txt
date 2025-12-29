@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://www.freshjuice.com/sitemap.xml
+Sitemap: https://www.ptxyz-byanjus.com/sitemap.xml
 
 # Disallow admin areas (if any)
 Disallow: /admin/

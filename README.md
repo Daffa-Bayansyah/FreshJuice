@@ -1,6 +1,6 @@
-# FreshJuice - Premium Natural Juice Bar Website
+# PT. XYZ - ByanjUs Premium Natural Juice Bar & Pengumpulan Dana Website
 
-Website modern dan responsif untuk bisnis jus premium dengan desain UI/UX yang memukau dan fitur-fitur canggih.
+Website modern dan responsif untuk PT. XYZ - perusahaan pengumpulan dana yang menghadirkan modal khusus untuk mahasiswa/i dengan ByanjUs bisnis jus premium yang memukau dan fitur-fitur canggih.
 
 ## 🌟 Fitur Utama
 
@@ -89,7 +89,7 @@ Website modern dan responsif untuk bisnis jus premium dengan desain UI/UX yang m
 
 ### 🎯 Business Features
 
-#### FreshJuice Products
+#### ByanjUs Products
 - **Jus Buah Segar**: Orange, Apple, Mango, Watermelon, Kiwi
 - **Jus Sayur Organik**: Green Power detox blends
 - **Smoothies Premium**: Berry, Strawberry, Grape, Oreo, Raspberry
@@ -105,7 +105,7 @@ Website modern dan responsif untuk bisnis jus premium dengan desain UI/UX yang m
 ### 🔍 SEO Implementation
 
 #### On-Page SEO
-- **Title Tags**: Optimized untuk FreshJuice keywords
+- **Title Tags**: Optimized untuk PT. XYZ ByanjUs keywords
 - **Meta Descriptions**: Compelling descriptions dengan call-to-action
 - **Header Structure**: Proper H1-H6 hierarchy
 - **Internal Linking**: Strategic link building
@@ -165,12 +165,12 @@ Text Light: #666666
 1. **Clone atau Download**
    ```bash
    git clone [repository-url]
-   cd freshjuice-website
+   cd ptxyz-byanjus-website
    ```
 
 2. **File Structure**
    ```
-   freshjuice-website/
+   ptxyz-byanjus-website/
    ├── index.html          # Homepage
    ├── menu.html           # Menu page
    ├── gallery.html        # Gallery page
@@ -253,7 +253,7 @@ Edit CSS variables di `css/style.css`:
 - **Firebase Hosting**: Google's hosting platform
 
 #### Domain Setup
-- **Recommended**: www.freshjuice.com
+- **Recommended**: www.ptxyz-byanjus.com
 - **SSL Certificate**: Required untuk HTTPS
 - **CDN Setup**: CloudFlare untuk performance
 
@@ -270,14 +270,14 @@ Edit CSS variables di `css/style.css`:
 Untuk pertanyaan atau support mengenai website ini:
 - **Business Contact**: Daffa Bayansyah
 - **Phone**: +62 813-7311-7657
-- **Email**: daffa@freshjuice.com
-- **Website**: www.freshjuice.com
+- **Email**: daffa@ptxyz.com
+- **Website**: www.ptxyz-byanjus.com
 - **Address**: Jl. Sehat No. 123, Jakarta Selatan
 
 ### 📄 License
 
-Website ini dibuat untuk keperluan komersial FreshJuice. All rights reserved.
+Website ini dibuat untuk keperluan komersial PT. XYZ. All rights reserved.
 
 ---
 
-**Dibuat dengan ❤️ untuk FreshJuice - Premium Natural Juice Bar**
+**Dibuat dengan ❤️ untuk PT. XYZ - Empowering Student Entrepreneurs & ByanjUs Premium Natural Juice Excellence**

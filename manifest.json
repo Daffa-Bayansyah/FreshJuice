@@ -1,7 +1,7 @@
 {
-  "name": "FreshJuice - Premium Natural Juice Bar",
-  "short_name": "FreshJuice",
-  "description": "Website resmi FreshJuice - Jus premium alami untuk gaya hidup sehat",
+  "name": "PT. XYZ - ByanjUs Premium Natural Juice Bar & Pengumpulan Dana",
+  "short_name": "ByanjUs",
+  "description": "Website resmi PT. XYZ - Perusahaan pengumpulan dana terpercaya dengan ByanjUs layanan jus premium alami untuk gaya hidup sehat",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
@@ -21,7 +21,7 @@
       "purpose": "any maskable"
     }
   ],
-  "categories": ["food", "health", "lifestyle"],
+  "categories": ["food", "health", "lifestyle", "business", "finance"],
   "lang": "id",
   "dir": "ltr",
   "scope": "/",
